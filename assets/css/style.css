@@ -1,0 +1,79 @@
+#map {
+    height: 340px;
+    width:550px;
+    float: right;
+    left: 213px;
+    border: solid rgb(116, 116, 116) 5px;
+    z-index: 2;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(90, 141, 69, 0.76);
+} 
+.container {
+    background-color: dark rgb(165, 193, 230);
+  }
+
+#weather {
+    height: 15%;
+    width: 10%;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    z-index: 1;
+    border: solid black 5px;
+    background-color: grey;
+    color: black;
+}
+.jumbotron {
+    z-index: initial;
+    height: 370px;
+    background-color: rgb(166, 209, 156);
+    border-bottom: solid  rgba(90, 141, 69, 0.76) 30px;
+}
+#radar {
+    border: solid grey 5px;
+    position: absolute;
+    left: 45px;
+    bottom: 1px;
+    width: 1450px;
+    height: 400px;
+    margin-bottom: 5px;
+    background-repeat: no-repeat;
+    /* background-color: rgba(92, 160, 92, 0.63); */
+}
+.navbar {
+    z-index: 1;
+    position: relative;
+    bottom: 90px;
+    background-color: rgb(151, 144, 144);
+    border-top: black solid 5px;
+    border-left: black solid 3px;
+    border-bottom: black solid 5px;
+}
+.nav-item {
+    font-weight: bold;
+}
+
+.btn {
+    position: relative;
+    top: 260px;
+    left: 30px;
+    border: solid black 2px;
+}
+
+.big {
+    font-size: 96px;
+    font-family: 'Luckiest Guy', cursive;
+}
+.small {
+    font-size: 28px;
+    font-family: 'Luckiest Guy', cursive;
+}
+.mini {
+    font-size: 16px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
